@@ -12,10 +12,7 @@ using namespace std;
 
 typedef struct Person{
 int id;
-string name;
 ASF_FaceFeature faceFeature;
-struct Person* next;
 }Person, *pPerson;
 
-void generateList(MHandle handle, IplImage* img);
 ASF_FaceFeature getFeatureFromBmp(MHandle handle, IplImage* img);

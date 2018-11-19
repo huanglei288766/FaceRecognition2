@@ -1,9 +1,5 @@
 #include "LocalFaceModels.h"
 
-void generateList(MHandle handle, IplImage* img)
-{
-	
-}
 
 ASF_FaceFeature getFeatureFromBmp(MHandle handle, IplImage* img)
 {
